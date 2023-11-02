@@ -43,7 +43,7 @@ with st.container():
     st.markdown(
         """
         <div style='background-color: #f0f2f6; color: #31333f; padding: 10px; border-radius: 5px;'> 
-        Design with &#10084; by <a style="color:#31333f;" href="https://zain-ramzan.github.io">Zain Ramzan</a>
+        Design with &#10084; by <a style="color:#31333f;" href="https://zain-ramzan.github.io">Zain Ramzan</a> and <a style="color:#31333f;" href="https://www.linkedin.com/in/muhammadasadiqbal">Muhammad Asad Iqbal</a>
         </div>
         """,
         unsafe_allow_html=True,
