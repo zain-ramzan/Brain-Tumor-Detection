@@ -10,6 +10,8 @@ model = tf.keras.models.load_model('zain_model.h5')
 st.title('Brain Tumor Detection')
 # Display the main message
 st.write("You can see the tumor in an MRI brain image if any. Upload an image and see!")
+url = "Course Content/Week 05/MRI Datasethttps://github.com/zain-ramzan/Data-Science-HISB/tree/525afcf15608a61c3175b1ae91e2f0d32ffbb6ce/Course%20Content/Week%2005/MRI%20Dataset"
+st.write("You can download the [Dataset](%s) and Try it!" % url)
 # Create a link to an external website
 
 uploaded_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg"])
