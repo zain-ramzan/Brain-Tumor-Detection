@@ -11,7 +11,12 @@ st.title('Brain Tumor Detection')
 # Display the main message
 st.write("You can see the tumor in an MRI brain image if any. Upload an image and see!")
 url = "Course Content/Week 05/MRI Datasethttps://github.com/zain-ramzan/Data-Science-HISB/tree/525afcf15608a61c3175b1ae91e2f0d32ffbb6ce/Course%20Content/Week%2005/MRI%20Dataset"
-st.write("You can download the [Dataset](%s) and Try it!" % url)
+st.markdown(
+        """
+        <p>If you want to try, download the <a href="https://github.com/zain-ramzan/Data-Science-HISB/tree/525afcf15608a61c3175b1ae91e2f0d32ffbb6ce/Course%20Content/Week%2005/MRI%20Dataset" target="_blank">Dataset</a> and try it!</p>
+        """,
+        unsafe_allow_html=True,
+        )
 # Create a link to an external website
 
 uploaded_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg"])
@@ -49,5 +54,4 @@ with st.container():
         </div>
         """,
         unsafe_allow_html=True,
-
         )
