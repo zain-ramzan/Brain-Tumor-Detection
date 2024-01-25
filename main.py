@@ -12,7 +12,7 @@ st.title('Brain Tumor Detection')
 st.write("You can see the tumor in an MRI brain image if any. Upload an image and see!")
 st.markdown(
         """
-        <p>If you want to try, download the <a href="https://github.com/zain-ramzan/Data-Science-HISB/tree/525afcf15608a61c3175b1ae91e2f0d32ffbb6ce/Course%20Content/Week%2005/MRI%20Dataset" target="_blank">Dataset</a> and try it!</p>
+        <p>If you want to try, download the <a href="https://github.com/zain-ramzan/Data-Science-HISB/tree/525afcf15608a61c3175b1ae91e2f0d32ffbb6ce/Course%20Content/Week%2005/MRI%20Dataset" target="_blank">MRI Images</a> and try it!</p>
         """,
         unsafe_allow_html=True,
         )
